@@ -1,4 +1,4 @@
-name: sign4li
+name: sign4li176
 
 on:
   schedule:
@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
-          REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
+          REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS176 }}
           GP_TOKEN: ${{ secrets.GP_TOKEN}}
           PUSH_TYPES: 'pushplus'
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
